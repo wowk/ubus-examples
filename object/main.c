@@ -143,6 +143,8 @@ int main(int argc, char *argv[])
 
     ubus_free(ubus_ctx);
     uloop_done();
+
+    return 0;
 }
 
 int status_obj_cb(
